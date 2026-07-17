@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <section className="flex items-center justify-between px-20 py-24 bg-amber-50">
+    <section className="flex items-center justify-between py-24 px-20 bg-amber-50">
       
       {/* Left Side - Image */}
       <div className="w-1/2 flex justify-center">
