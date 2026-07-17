@@ -1,25 +1,37 @@
-export default function Hero() {    
+export default function Hero() {
   return (
-    <>
-      <div className="flex flex-col py-50 px-60 bg-gradient-to-r from-amber-300 to-orange-300 sm:items-start">
-        <h1 className="max-w-xs flex flex-col text-3xl font-semibold leading-10 text-black dark:text-zinc-50">
+    <section className="flex items-center justify-between px-20 py-24 bg-amber-50">
+      {/* Left Side */}
+      <div className="w-1/2">
+        <h1 className="text-5xl font-bold text-amber-950 leading-tight max-w-xl">
           Freshly Brewed Coffee, Crafted with Passion
         </h1>
-        <p className="flex flex-col max-w-xs mt-4 text-lg leading-6 text-black dark:text-zinc-50">
-          Indulge in the rich aroma and exquisite flavors of our carefully selected coffee beans, roasted to perfection for a truly satisfying experience.
+
+        <p className="mt-6 text-lg text-stone-600 leading-8 max-w-lg">
+          Indulge in the rich aroma and exquisite flavors of our carefully
+          selected coffee beans, roasted to perfection for a truly satisfying
+          experience.
         </p>
-        <div className="flex mt-6 gap-4">
-          <button className="px-6 py-2 text-lg font-semibold text-white bg-amber-700 rounded-lg hover:bg-amber-600 transition-colors duration-300 cursor-pointer">
+
+        <div className="flex gap-4 mt-8">
+          <button className="px-6 py-3 bg-amber-700 text-white font-semibold rounded-lg hover:bg-amber-800 transition duration-300 cursor-pointer shadow-md">
             Order Now
           </button>
-          <button className="px-6 py-2 text-lg font-semibold text-brown bg-orange-300 border border-black rounded-lg hover:bg-brown hover:text-black transition-colors duration-300 cursor-pointer">
+
+          <button className="px-6 py-3 border-2 border-amber-700 text-amber-700 font-semibold rounded-lg hover:bg-amber-700 hover:text-white transition duration-300 cursor-pointer">
             View Menu
           </button>
         </div>
       </div>
-      <div className="bg-amber-200 mt-2 px-3 flex w-[400px] h-[400px]">
-          <img src="/images/image.jpg" className="w-full h-full object-cover"/>
-        </div>
-    </>
+
+      {/* Right Side */}
+      <div className="w-1/2 flex justify-center">
+        <img
+          src="/images/image.jpg"
+          alt="Freshly brewed coffee"
+          className="w-[450px] h-[450px] object-cover rounded-3xl shadow-2xl"
+        />
+      </div>
+    </section>
   );
 }
