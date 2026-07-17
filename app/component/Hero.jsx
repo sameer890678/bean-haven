@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex items-center justify-between px-20 py-24 bg-amber-50">
+    <section className="px-20 py-24 bg-amber-50">
       {/* Left Side */}
       <div className="w-1/2">
         <h1 className="text-5xl font-bold text-amber-950 leading-tight max-w-xl">
