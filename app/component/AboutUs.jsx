@@ -5,7 +5,7 @@ export default function AboutUs() {
       {/* Left Side - Image */}
       <div className="w-1/2 flex justify-center">
         <img
-          src="/images/about.jpg"
+          src="/images/Barrista.jpg"
           alt="About Bean Haven"
           className="w-[450px] rounded-2xl shadow-xl"
         />
