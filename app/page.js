@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 import FeaturedMenu from "./component/FeaturedMenu";
 import AboutUs from "./component/AboutUs";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       </div>
       <div className="flex flex-1 font-sans dark:bg-blue-500">
         <FeaturedMenu />  
+      </div>
+      <div className="flex flex-1 font-sans dark:bg-blue-500">
+        <About />
       </div>
       <div className="flex flex-1 font-sans dark:bg-blue-500">
         <AboutUs />
