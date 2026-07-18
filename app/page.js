@@ -3,7 +3,7 @@ import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 import FeaturedMenu from "./component/FeaturedMenu";
 import AboutUs from "./component/AboutUs";
-import About from "@/components/About";
+import About from "./component/About";
 
 export default function Home() {
   return (
