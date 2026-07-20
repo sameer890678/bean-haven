@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import FeaturedMenu from "./component/FeaturedMenu";
 import About from "./component/About";
 import Gallery from "./component/Gallery";
+import Contact from "./component/Contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedMenu />
       <About />
       <Gallery />
+      <Contact />
     </>
   );
 }
