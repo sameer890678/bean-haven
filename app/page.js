@@ -9,24 +9,12 @@ import Gallery from "./component/Gallery";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col flex-1 items-center font-sans dark:bg-blue-500">
-        <Navbar />
-      </div>
-      <div className="flex flex-1 font-sans dark:bg-blue-500">
-        <Hero />
-      </div>
-      <div className="flex flex-1 font-sans dark:bg-blue-500">
-        <FeaturedMenu />  
-      </div>
-      <div className="flex flex-1 font-sans dark:bg-blue-500">
-        <About />
-      </div>
-      <div className="flex flex-1 font-sans dark:bg-blue-500">
-        <Gallery />
-      </div>
-      <div className="flex flex-1 font-sans dark:bg-blue-500">
-        <AboutUs />
-      </div>
+      <Navbar />
+      <Hero />
+      <FeaturedMenu />
+      <About />
+      <Gallery />
+      <AboutUs />
     </>
   );
 }
