@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import FeaturedMenu from "./component/FeaturedMenu";
 import AboutUs from "./component/AboutUs";
 import About from "./component/About";
+import Gallery from "./component/Gallery";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div className="flex flex-1 font-sans dark:bg-blue-500">
         <About />
+      </div>
+      <div className="flex flex-1 font-sans dark:bg-blue-500">
+        <Gallery />
       </div>
       <div className="flex flex-1 font-sans dark:bg-blue-500">
         <AboutUs />
