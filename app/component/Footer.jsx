@@ -1,3 +1,13 @@
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+} from "react-icons/fa";
+
 import Link from "next/link";
 
 export default function Footer() {
