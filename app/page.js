@@ -1,3 +1,12 @@
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+} from "react-icons/fa";  
 import Image from "next/image";
 import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";

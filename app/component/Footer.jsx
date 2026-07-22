@@ -69,7 +69,10 @@ export default function Footer() {
 
           <div className="space-y-3 text-stone-300">
 
-            <p>📍 123 Brew Street Coffee District Seattle, WA 98101</p>
+            <div className="flex items-center gap-3">
+            <FaMapMarkerAlt className="text-amber-400" />
+            <p>123 Coffee Street, Lahore</p>
+            </div>
 
             <p>📞 +1 (555) 123-4567</p>
 
