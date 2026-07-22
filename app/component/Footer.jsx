@@ -81,14 +81,23 @@ export default function Footer() {
 
             <div className="flex items-center gap-3">
             <FaMapMarkerAlt className="text-amber-400" />
-            <p>123 Coffee Street, Lahore</p>
+            <p>123 Brew Street Coffee District Seattle, WA 98101</p>
             </div>
 
-            <p>📞 +1 (555) 123-4567</p>
+            <div className="flex items-center gap-3">
+            <FaPhone className="text-amber-400" />
+            <p>+1 (555) 123-4567</p>
+            </div>
 
-            <p>✉️ hello@beanhaven.com</p>
+            <div className="flex items-center gap-3">
+            <FaEnvelope className="text-amber-400" />
+            <p>hello@beanhaven.com</p>
+            </div>
 
-            <p>🕒 Mon - Sun | 8:00 AM - 10:00 PM</p>
+            <div className="flex items-center gap-3">
+            <FaClock className="text-amber-400" />
+            <p>Mon - Sun | 8:00 AM - 10:00 PM</p>
+            </div>
 
           </div>
 
@@ -104,21 +113,21 @@ export default function Footer() {
           © 2026 Bean Haven. All Rights Reserved.
         </p>
 
-        <div className="flex gap-5 text-xl">
+        <div className="flex gap-5 text-2xl">
 
-          <a href="#" className="hover:text-amber-400 transition">
-            Facebook
-          </a>
+        <a href="#">
+        <FaFacebook className="hover:text-amber-400 transition duration-300" />
+        </a>
 
-          <a href="#" className="hover:text-amber-400 transition">
-            Instagram
-          </a>
+        <a href="#">
+        <FaInstagram className="hover:text-amber-400 transition duration-300" />
+        </a>
 
-          <a href="#" className="hover:text-amber-400 transition">
-            Twitter
-          </a>
+        <a href="#">
+        <FaTwitter className="hover:text-amber-400 transition duration-300" />
+        </a>
 
-        </div>
+      </div>
 
       </div>
 
