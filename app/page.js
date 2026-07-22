@@ -5,6 +5,7 @@ import FeaturedMenu from "./component/FeaturedMenu";
 import About from "./component/About";
 import Gallery from "./component/Gallery";
 import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Gallery />
       <Contact />
+      <Footer />
     </>
   );
 }
