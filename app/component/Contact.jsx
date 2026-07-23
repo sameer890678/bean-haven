@@ -34,36 +34,26 @@ export default function Contact() {
 
             <div className="space-y-6">
 
-              <div>
-                <h4 className="font-semibold text-amber-700">📍 Address</h4>
-                <p className="text-stone-600">
-                  123 Brew Street<br />
-                  Coffee District<br />
-                  Seattle, WA 98101
-                </p>
+        
+              
+              <div className="flex items-center gap-3">
+                <FaMapMarkerAlt className="text-amber-900" />
+                <p>123 Brew Street Coffee District Seattle, WA 98101</p>
               </div>
-
-              <div>
-                <h4 className="font-semibold text-amber-700">📞 Phone</h4>
-                <p className="text-stone-600">
-                  +1 (555) 123-4567
-                </p>
+              
+              <div className="flex items-center gap-3">
+                <FaPhone className="text-amber-900" />
+                <p>+1 (555) 123-4567</p>
               </div>
-
-              <div>
-                <h4 className="font-semibold text-amber-700">📧 Email</h4>
-                <p className="text-stone-600">
-                  hello@beanhavencafe.com
-                </p>
+              
+              <div className="flex items-center gap-3">
+                <FaEnvelope className="text-amber-900" />
+                <p>hello@beanhaven.com</p>
               </div>
-
-              <div>
-                <h4 className="font-semibold text-amber-700">🕒 Opening Hours</h4>
-                <p className="text-stone-600">
-                  Monday - Friday: 8:00 AM - 9:00 PM
-                  <br />
-                  Saturday - Sunday: 9:00 AM - 10:00 PM
-                </p>
+              
+              <div className="flex items-center gap-3">
+                <FaClock className="text-amber-900" />
+                <p>Mon - Sun | 8:00 AM - 10:00 PM</p>
               </div>
 
             </div>
