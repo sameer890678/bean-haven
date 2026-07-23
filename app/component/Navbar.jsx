@@ -31,17 +31,17 @@ function Navbar() {
           </Link>
 
           <Link
-            href="#gallery"
-            className="hover:text-amber-300 transition duration-300"
-          >
-            Gallery
-          </Link>
-
-          <Link
             href="#about"
             className="hover:text-amber-300 transition duration-300"
           >
             About
+          </Link>
+
+          <Link
+            href="#gallery"
+            className="hover:text-amber-300 transition duration-300"
+          >
+            Gallery
           </Link>
 
           <Link
