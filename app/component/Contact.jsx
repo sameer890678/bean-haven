@@ -1,3 +1,10 @@
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+} from "react-icons/fa";
+
 export default function Contact() {
   return (
     <section id="contact" className="bg-amber-50 py-24 px-20">
