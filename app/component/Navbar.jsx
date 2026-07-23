@@ -17,35 +17,35 @@ function Navbar() {
         <div className="flex items-center gap-8 text-white font-medium">
 
           <Link
-            href="/"
+            href="#home"
             className="hover:text-amber-300 transition duration-300"
           >
             Home
           </Link>
 
           <Link
-            href="/menu"
+            href="#menu"
             className="hover:text-amber-300 transition duration-300"
           >
             Menu
           </Link>
 
           <Link
-            href="/gallery"
+            href="#gallery"
             className="hover:text-amber-300 transition duration-300"
           >
             Gallery
           </Link>
 
           <Link
-            href="/about"
+            href="#about"
             className="hover:text-amber-300 transition duration-300"
           >
             About
           </Link>
 
           <Link
-            href="/contact"
+            href="#contact"
             className="hover:text-amber-300 transition duration-300"
           >
             Contact

@@ -1,6 +1,6 @@
 export default function FeaturedMenu() {
   return (
-    <section className="bg-amber-100 py-24 px-20">
+    <section id="menu" className="bg-amber-100 py-24 px-20">
 
       {/* Heading */}
       <div className="text-center mb-14">
