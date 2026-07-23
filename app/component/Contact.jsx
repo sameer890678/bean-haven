@@ -43,22 +43,22 @@ export default function Contact() {
 
         
               
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 text-stone-700">
                 <FaMapMarkerAlt className="text-amber-900" />
                 <p>123 Brew Street Coffee District Seattle, WA 98101</p>
               </div>
               
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 text-stone-700">
                 <FaPhone className="text-amber-900" />
                 <p>+1 (555) 123-4567</p>
               </div>
               
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 text-stone-700">
                 <FaEnvelope className="text-amber-900" />
                 <p>hello@beanhaven.com</p>
               </div>
               
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 text-stone-700">
                 <FaClock className="text-amber-900" />
                 <p>Mon - Sun | 8:00 AM - 10:00 PM</p>
               </div>
