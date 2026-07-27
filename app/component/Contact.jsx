@@ -80,11 +80,13 @@ export default function Contact() {
               ready to serve you.
             </p>
 
-            <a 
+            <Link 
              href="https://www.google.com/maps/place/123+Brew+Street,+Coffee+District,+Seattle,+WA+98101"
+             target="_blank"
+             rel="noopener noreferrer"
              className="px-6 py-3 bg-amber-700 text-white rounded-xl hover:bg-amber-800 transition duration-300 cursor-pointer">
               Get Directions
-            </a>
+            </Link>
 
           </div>
 
