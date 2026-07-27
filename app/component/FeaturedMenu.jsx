@@ -44,10 +44,6 @@ export default function FeaturedMenu() {
                 $3.50
               </span>
 
-              <button className="px-5 py-2 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition duration-300 cursor-pointer">
-                Order Now
-              </button>
-
             </div>
 
           </div>
@@ -79,11 +75,6 @@ export default function FeaturedMenu() {
               <span className="text-2xl font-bold text-amber-700">
                 $2.50
               </span>
-
-              <button className="px-5 py-2 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition duration-300 cursor-pointer">
-                Order Now
-              </button>
-
             </div>
 
           </div>
@@ -115,11 +106,7 @@ export default function FeaturedMenu() {
               <span className="text-2xl font-bold text-amber-700">
                 $5.00
               </span>
-
-              <button className="px-5 py-2 bg-amber-700 text-white rounded-lg hover:bg-amber-800 transition duration-300 cursor-pointer">
-                Order Now
-              </button>
-
+              
             </div>
 
           </div>
