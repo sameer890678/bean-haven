@@ -13,8 +13,7 @@ export default function Hero() {
           experience.
         </p>
 
-        <div className="flex gap-4 mt-8">
-
+        <div className="flex mt-8">
          <a
            href="/menu/menu.pdf"
            target="_blank"
