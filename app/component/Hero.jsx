@@ -14,9 +14,6 @@ export default function Hero() {
         </p>
 
         <div className="flex gap-4 mt-8">
-          <button className="px-6 py-3 bg-amber-700 text-white font-semibold rounded-lg hover:bg-amber-800 transition duration-300 cursor-pointer shadow-md">
-            Order Now
-          </button>
 
          <a
            href="/menu/menu.pdf"
