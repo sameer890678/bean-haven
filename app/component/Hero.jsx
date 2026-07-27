@@ -18,9 +18,13 @@ export default function Hero() {
             Order Now
           </button>
 
-          <button className="px-6 py-3 border-2 border-amber-700 text-amber-700 font-semibold rounded-lg hover:bg-amber-700 hover:text-white transition duration-300 cursor-pointer">
+         <a
+           href="/menu/menu.pdf"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="px-6 py-3 border-2 border-amber-700 text-amber-700 font-semibold rounded-lg hover:bg-amber-700 hover:text-white transition duration-300 cursor-pointer">
             View Menu
-          </button>
+          </a>
         </div>
       </div>
 
