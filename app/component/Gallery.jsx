@@ -1,6 +1,6 @@
 export default function Gallery() {
   return (
-    <section id="gallery" data-aos="zoom-in" className="bg-amber-100 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
+    <section id="gallery" className="bg-amber-100 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
 
       {/* Heading */}
       <div className="text-center mb-14">

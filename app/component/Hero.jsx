@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="home" data-aos="fade-up" className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-16 lg:py-24 bg-amber-50 gap-12">
+    <section id="home" className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-16 lg:py-24 bg-amber-50 gap-12">
       {/* Left Side */}
       <div className="w-full lg:w-1/2 text-center lg:text-left">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-950 leading-tight max-w-xl mx-auto lg:mx-0">

@@ -1,6 +1,3 @@
-import "aos/dist/aos.css";
-import AOSProvider from "./component/AOSProvider";
-
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 

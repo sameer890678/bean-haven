@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" data-aos="fade-right" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
+    <section id="about" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
 
         {/* Left Side - Image */}
