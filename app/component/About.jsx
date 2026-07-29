@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
@@ -8,6 +10,8 @@ export default function About() {
           <Image
             src="/images/Interior.jpg"
             alt="Coffee Shop"
+            width={500}
+            height={500}
             className="w-full max-w-md lg:max-w-full h-80 md:h-[450px] lg:h-[500px] object-cover rounded-3xl shadow-2xl mx-auto"
           />
         </div>

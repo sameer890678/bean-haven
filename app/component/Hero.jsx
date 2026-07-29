@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section id="home" className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-16 lg:py-24 bg-amber-50 gap-12">
@@ -29,6 +31,8 @@ export default function Hero() {
         <Image
           src="/images/image.jpg"
           alt="Freshly brewed coffee"
+          width={450}
+          height={450}
           className="w-72 h-72 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] object-cover rounded-3xl shadow-2xl"
         />
       </div>

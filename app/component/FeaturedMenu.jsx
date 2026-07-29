@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function FeaturedMenu() {
   return (
     <section id="menu" className="bg-amber-100 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
@@ -24,6 +26,8 @@ export default function FeaturedMenu() {
           <Image
             src="/images/Cappuccino.jpg"
             alt="Cappuccino"
+            width={450}
+            height={300}
             className="w-full h-56 md:h-60 object-cover"
           />
 
@@ -56,9 +60,11 @@ export default function FeaturedMenu() {
           <Image
             src="/images/espresso.jpg"
             alt="Espresso"
+            width={450}
+            height={300}
             className="w-full h-56 md:h-60 object-cover"
           />
-
+          
           <div className="p-6">
 
             <h3 className="text-2xl font-bold text-amber-900">
@@ -87,6 +93,8 @@ export default function FeaturedMenu() {
           <Image
             src="/images/latte.jpg"
             alt="Latte"
+            width={450}
+            height={300}
             className="w-full h-56 md:h-60 object-cover"
           />
 

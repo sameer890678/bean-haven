@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Gallery() {
   return (
     <section id="gallery" className="bg-amber-100 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
@@ -28,36 +30,48 @@ export default function Gallery() {
         <Image
           src="/images/Gallery/gallery1.jpg"
           alt="Coffee"
+          width={450}
+          height={300}
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
           src="/images/Gallery/gallery2.jpg"
           alt="Coffee"
+          width={450}
+          height={300}
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
-
+  
         <Image
           src="/images/Gallery/gallery3.jpg"
           alt="Coffee"
+          width={450}
+          height={300}
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
           src="/images/Gallery/gallery4.jpg"
           alt="Coffee"
+          width={450}
+          height={300}
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
           src="/images/Gallery/gallery5.jpg"
           alt="Coffee"
+          width={450}
+          height={300}
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
           src="/images/Gallery/gallery6.jpg"
           alt="Coffee"
+          width={450}
+          height={300}
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
