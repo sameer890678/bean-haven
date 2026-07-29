@@ -1,14 +1,14 @@
 export default function FeaturedMenu() {
   return (
-    <section id="menu" className="bg-amber-100 py-24 px-20">
+    <section id="menu" className="bg-amber-100 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
 
       {/* Heading */}
       <div className="text-center mb-14">
-        <h2 className="text-5xl font-bold text-amber-900">
+        <h2 className="text-4xl md:text-5xl font-bold text-amber-900">
           Featured Menu
         </h2>
 
-        <p className="mt-5 max-w-3xl mx-auto text-lg leading-8 text-stone-700">
+        <p className="mt-5 max-w-3xl mx-auto text-base md:text-lg leading-8 text-stone-700 px-2">
           Explore our handpicked selection of handcrafted coffee, prepared with
           premium beans and perfected by our experienced baristas. Every cup is
           made to deliver comfort, warmth, and unforgettable flavor.
@@ -16,15 +16,15 @@ export default function FeaturedMenu() {
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         {/* Card 1 */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 w-full max-w-sm mx-auto">
 
           <img
             src="/images/Cappuccino.jpg"
             alt="Cappuccino"
-            className="w-full h-60 object-cover"
+            className="w-full h-56 md:h-60 object-cover"
           />
 
           <div className="p-6">
@@ -51,12 +51,12 @@ export default function FeaturedMenu() {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 w-full max-w-sm mx-auto">
 
           <img
             src="/images/espresso.jpg"
             alt="Espresso"
-            className="w-full h-60 object-cover"
+            className="w-full h-56 md:h-60 object-cover"
           />
 
           <div className="p-6">
@@ -82,12 +82,12 @@ export default function FeaturedMenu() {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 w-full max-w-sm mx-auto">
 
           <img
             src="/images/latte.jpg"
             alt="Latte"
-            className="w-full h-60 object-cover"
+            className="w-full h-56 md:h-60 object-cover"
           />
 
           <div className="p-6">
