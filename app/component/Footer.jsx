@@ -13,7 +13,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer data-aos="fade-up" className="bg-amber-950 text-white py-20 px-6 md:px-12 lg:px-20">
+    <footer className="bg-amber-950 text-white py-20 px-6 md:px-12 lg:px-20">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 
@@ -116,15 +116,15 @@ export default function Footer() {
 
         <div className="flex gap-5 text-3xl">
 
-        <a href="#">
+        <a href="https://www.facebook.com/">
         <FaFacebook className="hover:text-amber-300 hover:-translate-y-1 hover:scale-110 transition duration-300" />
         </a>
 
-        <a href="#">
+        <a href="https://www.instagram.com/">
         <FaInstagram className="hover:text-amber-300 hover:-translate-y-1 hover:scale-110 transition duration-300" />
         </a>
 
-        <a href="#">
+        <a href="https://x.com/">
         <FaXTwitter className="hover:text-amber-300 hover:-translate-y-1 hover:scale-110 transition duration-300" />
         </a>
 
