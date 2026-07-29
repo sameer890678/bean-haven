@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-amber-950 text-white py-16 px-6 md:px-12 lg:px-20">
+    <footer data-aos="fade-up" className="bg-amber-950 text-white py-16 px-6 md:px-12 lg:px-20">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 

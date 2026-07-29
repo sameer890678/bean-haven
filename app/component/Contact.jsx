@@ -7,7 +7,7 @@ import {
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
+    <section id="contact" data-aos="fade-left" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
 
       {/* Heading */}
       <div className="text-center mb-14">
