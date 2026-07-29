@@ -7,7 +7,7 @@ export default function Hero() {
           Freshly Brewed Coffee, Crafted with Passion
         </h1>
 
-        <p className="mt-6 text-base md:text-lg text-stone-600 leading-8 max-w-lg mx-auto lg:mx-0">
+        <p className="mt-6 text-base md:text-lg text-stone-600 leading-8 max-w-lg mx-auto lg:mx-0 text-justify">
           Indulge in the rich aroma and exquisite flavors of our carefully
           selected coffee beans, roasted to perfection for a truly satisfying
           experience.

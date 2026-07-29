@@ -23,13 +23,13 @@ export default function About() {
             Every Cup Has a Story
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-stone-700">
+          <p className="mt-6 text-lg leading-8 text-stone-700 text-justify">
             At Bean Haven, coffee is more than just a drink—it's an experience.
             We carefully source premium coffee beans from trusted farms and
             roast them with precision to bring out their richest flavors.
           </p>
 
-          <p className="mt-5 text-lg leading-8 text-stone-700">
+          <p className="mt-5 text-lg leading-8 text-stone-700 text-justify">
             Whether you're meeting friends, catching up on work, or simply
             taking a quiet break, our welcoming atmosphere and handcrafted
             beverages are designed to make every visit memorable.
