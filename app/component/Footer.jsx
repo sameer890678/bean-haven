@@ -22,7 +22,7 @@ export default function Footer() {
             Bean Haven
           </h2>
 
-          <p className="mt-4 text-stone-300 leading-7">
+          <p className="mt-4 text-stone-300 leading-7 text-justify">
             Freshly brewed coffee crafted with passion. Experience premium
             flavors, warm hospitality, and a cozy atmosphere every time you
             visit Bean Haven.

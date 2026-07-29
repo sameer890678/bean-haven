@@ -33,7 +33,7 @@ export default function FeaturedMenu() {
               Cappuccino
             </h3>
 
-            <p className="mt-3 text-stone-600 leading-7">
+            <p className="mt-3 text-stone-600 leading-7 text-justify">
               A rich espresso blended with silky steamed milk and finished with
               a thick layer of creamy foam.
             </p>
@@ -65,7 +65,7 @@ export default function FeaturedMenu() {
               Espresso
             </h3>
 
-            <p className="mt-3 text-stone-600 leading-7">
+            <p className="mt-3 text-stone-600 leading-7 text-justify">
               A bold and concentrated coffee with an intense aroma, perfect for
               those who enjoy strong flavors.
             </p>
@@ -96,7 +96,7 @@ export default function FeaturedMenu() {
               Latte
             </h3>
 
-            <p className="mt-3 text-stone-600 leading-7">
+            <p className="mt-3 text-stone-600 leading-7 text-justify">
               Smooth espresso combined with perfectly steamed milk to create a
               creamy and comforting classic.
             </p>

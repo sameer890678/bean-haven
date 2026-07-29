@@ -74,7 +74,7 @@ export default function Contact() {
               We'd Love to See You!
             </h3>
 
-            <p className="text-stone-700 leading-8 mb-8">
+            <p className="text-stone-700 leading-8 mb-8 text-justify">
               Whether you're looking for your morning coffee, a cozy place to
               work, or a relaxing evening with friends, Bean Haven is always
               ready to serve you.
