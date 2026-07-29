@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bean Haven ☕
 
-## Getting Started
+A modern, fully responsive coffee shop website built with Next.js, 
+TypeScript, and Tailwind CSS. Designed to showcase a premium coffee 
+shop experience with a clean UI and smooth navigation.
 
-First, run the development server:
+## 🌐 Live Demo
+[bean-haven-seven.vercel.app](https://bean-haven-seven.vercel.app)
 
+## ✨ Features
+
+- Responsive design across all screen sizes
+- Featured menu section with coffee items and pricing
+- Photo gallery showcasing the coffee shop atmosphere
+- About section with shop stats and story
+- Contact section with location, hours, and directions
+- Smooth scroll navigation between sections
+- PDF menu viewer
+
+## 🛠️ Built With
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+
+## 📂 Project Structure
+
+app/ ├── component/ │ ├── Navbar.jsx │ ├── Hero.jsx │ ├── FeaturedMenu.jsx │ ├── About.jsx │ ├── Gallery.jsx │ ├── AboutUs.jsx │ ├── Contact.jsx │ └── Footer.jsx ├── layout.jsx ├── page.jsx └── globals.css public/ ├── images/ └── menu/
+
+## 🚀 Getting Started
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/sameer890678/bean-haven.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
