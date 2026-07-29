@@ -1,25 +1,25 @@
 export default function About() {
   return (
-    <section id="about" className="bg-amber-50 py-24 px-20">
-      <div className="flex items-center justify-between gap-16">
+    <section id="about" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
 
         {/* Left Side - Image */}
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2">
           <img
             src="/images/Interior.jpg"
             alt="Coffee Shop"
-            className="w-full h-[500px] object-cover rounded-3xl shadow-2xl"
+            className="w-full max-w-md lg:max-w-full h-80 md:h-[450px] lg:h-[500px] object-cover rounded-3xl shadow-2xl mx-auto"
           />
         </div>
 
         {/* Right Side - Content */}
-        <div className="w-1/2">
+        <div className="w-full lg:w-1/2 text-center lg:text-left">
 
           <p className="text-amber-700 font-semibold tracking-widest uppercase">
             About Us
           </p>
 
-          <h2 className="mt-3 text-5xl font-bold text-amber-950 leading-tight">
+          <h2 className="mt-3 text-4xl md:text-5xl font-bold text-amber-950 leading-tight">
             Every Cup Has a Story
           </h2>
 
@@ -35,7 +35,7 @@ export default function About() {
             beverages are designed to make every visit memorable.
           </p>
 
-          <div className="mt-10 flex gap-6">
+          <div className="mt-10 flex flex-col sm:flex-row justify-center lg:justify-start gap-8">
 
             <div>
               <h3 className="text-4xl font-bold text-amber-700">10+</h3>
