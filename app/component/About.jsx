@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
+    <section id="about" className="bg-amber-50 py-16 lg:py-28 px-6 md:px-12 lg:px-20">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-16 lg:gap-20">
 
         {/* Left Side - Image */}
         <div className="w-full lg:w-1/2">
@@ -23,11 +23,11 @@ export default function About() {
             About Us
           </p>
 
-          <h2 className="mt-3 text-4xl md:text-5xl font-bold text-amber-950 leading-tight">
+          <h2 className="mt-3 text-4xl md:text-5xl font-bold text-amber-950 leading-tight tracking-tight">
             Every Cup Has a Story
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-stone-700 text-justify">
+          <p className="mt-6 text-base md:text-lg leading-8 text-stone-700 text-justify">
             At Bean Haven, coffee is more than just a drink—it's an experience.
             We carefully source premium coffee beans from trusted farms and
             roast them with precision to bring out their richest flavors.
