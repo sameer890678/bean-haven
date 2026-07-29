@@ -26,7 +26,7 @@ export default function Hero() {
 
       {/* Right Side */}
       <div className="w-full lg:w-1/2 flex justify-center">
-        <img
+        <Image
           src="/images/image.jpg"
           alt="Freshly brewed coffee"
           className="w-72 h-72 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] object-cover rounded-3xl shadow-2xl"

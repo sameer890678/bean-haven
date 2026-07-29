@@ -12,17 +12,17 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-amber-950 text-white py-16 px-20">
+    <footer className="bg-amber-950 text-white py-16 px-6 md:px-12 lg:px-20">
 
-      <div className="grid grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 
         {/* Logo & Description */}
         <div>
-          <h2 className="text-3xl font-bold text-amber-400">
+          <h2 className="text-2xl md:text-3xl font-bold text-amber-400">
             Bean Haven
           </h2>
 
-          <p className="mt-4 text-stone-300 leading-7 text-justify">
+          <p className="mt-4 text-sm md:text-base text-stone-300 leading-7 text-justify">
             Freshly brewed coffee crafted with passion. Experience premium
             flavors, warm hospitality, and a cozy atmosphere every time you
             visit Bean Haven.
@@ -31,7 +31,7 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-2xl font-semibold mb-5 text-amber-300">
+          <h3 className="text-xl md:text-2xl font-semibold mb-5 text-amber-300">
             Quick Links
           </h3>
 
@@ -79,22 +79,22 @@ export default function Footer() {
 
           <div className="space-y-3 text-stone-300">
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
             <FaMapMarkerAlt className="text-amber-400" />
             <p>123 Brew Street Coffee District Seattle, WA 98101</p>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
             <FaPhone className="text-amber-400" />
             <p>+1 (555) 123-4567</p>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
             <FaEnvelope className="text-amber-400" />
             <p>hello@beanhaven.com</p>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
             <FaClock className="text-amber-400" />
             <p>Mon - Sun | 8:00 AM - 10:00 PM</p>
             </div>
@@ -107,9 +107,9 @@ export default function Footer() {
 
       {/* Bottom Line */}
 
-      <div className="border-t border-amber-800 mt-12 pt-6 flex justify-between items-center">
+      <div className="border-t border-amber-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-6">
 
-        <p className="text-stone-400">
+        <p className="text-stone-400 text-center md:text-left">
           © 2026 Bean Haven. All Rights Reserved.
         </p>
 

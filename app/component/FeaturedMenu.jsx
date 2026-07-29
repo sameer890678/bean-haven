@@ -21,7 +21,7 @@ export default function FeaturedMenu() {
         {/* Card 1 */}
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 w-full max-w-sm mx-auto">
 
-          <img
+          <Image
             src="/images/Cappuccino.jpg"
             alt="Cappuccino"
             className="w-full h-56 md:h-60 object-cover"
@@ -53,7 +53,7 @@ export default function FeaturedMenu() {
         {/* Card 2 */}
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 w-full max-w-sm mx-auto">
 
-          <img
+          <Image
             src="/images/espresso.jpg"
             alt="Espresso"
             className="w-full h-56 md:h-60 object-cover"
@@ -84,7 +84,7 @@ export default function FeaturedMenu() {
         {/* Card 3 */}
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 w-full max-w-sm mx-auto">
 
-          <img
+          <Image
             src="/images/latte.jpg"
             alt="Latte"
             className="w-full h-56 md:h-60 object-cover"

@@ -25,37 +25,37 @@ export default function Gallery() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-        <img
+        <Image
           src="/images/Gallery/gallery1.jpg"
           alt="Coffee"
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
-        <img
+        <Image
           src="/images/Gallery/gallery2.jpg"
           alt="Coffee"
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
-        <img
+        <Image
           src="/images/Gallery/gallery3.jpg"
           alt="Coffee"
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
-        <img
+        <Image
           src="/images/Gallery/gallery4.jpg"
           alt="Coffee"
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
-        <img
+        <Image
           src="/images/Gallery/gallery5.jpg"
           alt="Coffee"
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
-        <img
+        <Image
           src="/images/Gallery/gallery6.jpg"
           alt="Coffee"
           className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"

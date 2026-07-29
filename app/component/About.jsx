@@ -5,7 +5,7 @@ export default function About() {
 
         {/* Left Side - Image */}
         <div className="w-full lg:w-1/2">
-          <img
+          <Image
             src="/images/Interior.jpg"
             alt="Coffee Shop"
             className="w-full max-w-md lg:max-w-full h-80 md:h-[450px] lg:h-[500px] object-cover rounded-3xl shadow-2xl mx-auto"
