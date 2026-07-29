@@ -83,7 +83,7 @@ export default function Contact() {
             <a 
              href="https://www.google.com/maps/place/123+Brew+Street,+Coffee+District,+Seattle,+WA+98101"
              target="_blank"
-             className="px-6 py-3 bg-amber-700 text-white rounded-xl hover:bg-amber-800 transition duration-300 cursor-pointer">
+             className="px-6 py-3 flex items-center justify-center bg-amber-700 text-white rounded-xl hover:bg-amber-800 transition duration-300 cursor-pointer">
               Get Directions
             </a>
 
