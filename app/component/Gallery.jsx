@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="bg-amber-100 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
+    <section id="gallery" className="bg-amber-100 py-16 lg:py-28 px-6 md:px-12 lg:px-20">
 
       {/* Heading */}
       <div className="text-center mb-14">
@@ -11,11 +11,11 @@ export default function Gallery() {
           Gallery
         </p>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-amber-950 mt-2">
+        <h2 className="text-4xl md:text-5xl font-bold text-amber-950 mt-2 tracking-tight">
           A Taste of Bean Haven
         </h2>
 
-        <p className="mt-5 max-w-3xl mx-auto text-lg text-stone-700 leading-8">
+        <p className="mt-5 max-w-3xl mx-auto text-lg text-stone-600 leading-8">
           Step inside Bean Haven and explore our handcrafted coffee, cozy
           atmosphere, talented baristas, and delicious treats through our
           gallery.
@@ -32,7 +32,7 @@ export default function Gallery() {
           alt="Coffee"
           width={450}
           height={300}
-          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
@@ -40,7 +40,7 @@ export default function Gallery() {
           alt="Coffee"
           width={450}
           height={300}
-          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
   
         <Image
@@ -48,7 +48,7 @@ export default function Gallery() {
           alt="Coffee"
           width={450}
           height={300}
-          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
@@ -56,7 +56,7 @@ export default function Gallery() {
           alt="Coffee"
           width={450}
           height={300}
-          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
@@ -64,7 +64,7 @@ export default function Gallery() {
           alt="Coffee"
           width={450}
           height={300}
-          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <Image
@@ -72,7 +72,7 @@ export default function Gallery() {
           alt="Coffee"
           width={450}
           height={300}
-          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-xl hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
       </div>
