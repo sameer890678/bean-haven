@@ -7,7 +7,7 @@ import {
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-amber-50 py-24 px-20">
+    <section id="contact" className="bg-amber-50 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
 
       {/* Heading */}
       <div className="text-center mb-14">
@@ -16,11 +16,11 @@ export default function Contact() {
           Contact
         </p>
 
-        <h2 className="text-5xl font-bold text-amber-950 mt-2">
+        <h2 className="text-4xl md:text-5xl font-bold text-amber-950 mt-2">
           Visit Bean Haven
         </h2>
 
-        <p className="mt-5 max-w-3xl mx-auto text-lg leading-8 text-stone-700">
+        <p className="mt-5 max-w-3xl mx-auto text-base md:text-lg leading-8 text-stone-700 px-2">
           We'd love to welcome you! Stop by for a fresh cup of coffee or get in
           touch if you have any questions.
         </p>
@@ -28,14 +28,14 @@ export default function Contact() {
       </div>
 
       {/* Contact Card */}
-      <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-xl p-12">
+      <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-xl p-6 md:p-12">
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12">
 
           {/* Left Side */}
           <div>
 
-            <h3 className="text-2xl font-bold text-amber-900 mb-8">
+            <h3 className="text-xl md:text-2xl font-bold text-amber-900 mb-8">
               Contact Information
             </h3>
 
@@ -43,22 +43,22 @@ export default function Contact() {
 
         
               
-              <div className="flex items-center gap-3 text-stone-700">
+              <div className="flex items-start gap-3 text-stone-700">
                 <FaMapMarkerAlt className="text-amber-900" />
                 <p>123 Brew Street Coffee District Seattle, WA 98101</p>
               </div>
               
-              <div className="flex items-center gap-3 text-stone-700">
+              <div className="flex items-start gap-3 text-stone-700">
                 <FaPhone className="text-amber-900" />
                 <p>+1 (555) 123-4567</p>
               </div>
               
-              <div className="flex items-center gap-3 text-stone-700">
+              <div className="flex items-start gap-3 text-stone-700">
                 <FaEnvelope className="text-amber-900" />
                 <p>hello@beanhaven.com</p>
               </div>
               
-              <div className="flex items-center gap-3 text-stone-700">
+              <div className="flex items-start gap-3 text-stone-700">
                 <FaClock className="text-amber-900" />
                 <p>Mon - Sun | 8:00 AM - 10:00 PM</p>
               </div>
@@ -68,9 +68,9 @@ export default function Contact() {
           </div>
 
           {/* Right Side */}
-          <div className="flex flex-col justify-center bg-amber-100 rounded-2xl p-10">
+          <div className="flex flex-col justify-center bg-amber-100 rounded-2xl p-6 md:p-10">
 
-            <h3 className="text-3xl font-bold text-amber-900 mb-4">
+            <h3 className="text-2xl md:text-3xl font-bold text-amber-900 mb-4">
               We'd Love to See You!
             </h3>
 
@@ -83,7 +83,7 @@ export default function Contact() {
             <a 
              href="https://www.google.com/maps/place/123+Brew+Street,+Coffee+District,+Seattle,+WA+98101"
              target="_blank"
-             className="px-6 py-3 flex items-center justify-center bg-amber-700 text-white rounded-xl hover:bg-amber-800 transition duration-300 cursor-pointer">
+             className="w-full md:w-fit px-6 py-3 flex items-center justify-center bg-amber-700 text-white rounded-xl hover:bg-amber-800 transition duration-300 cursor-pointer">
               Get Directions
             </a>
 
