@@ -1,9 +1,9 @@
 import {
   FaPhone,
   FaEnvelope,
-  FaMapMarkerAlt,
+  FaLocationDot,
   FaClock,
-} from "react-icons/fa";
+} from "react-icons/fa6";
 
 export default function Contact() {
   return (
@@ -44,7 +44,7 @@ export default function Contact() {
         
               
               <div className="flex items-start gap-4 text-stone-700">
-                <FaMapMarkerAlt className="text-amber-700 text-xl flex-shrink-0" />
+                <FaLocationDot className="text-amber-700 text-xl flex-shrink-0" />
                 <p>123 Brew Street Coffee District Seattle, WA 98101</p>
               </div>
               
