@@ -55,7 +55,8 @@ function Navbar() {
 
         {/* CTA Button */}
         <Link
-          href="/visit-us"
+          href="https://www.google.com/maps/place/123+Brew+Street,+Coffee+District,+Seattle,+WA+98101"
+          target="_blank"
           className="px-5 py-2 rounded-xl bg-amber-600 text-white font-semibold hover:bg-amber-500 hover:scale-105 transition duration-300 shadow-lg"
         >
           Visit Us
