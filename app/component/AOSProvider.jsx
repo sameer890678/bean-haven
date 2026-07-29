@@ -12,6 +12,8 @@ export default function AOSProvider({ children }) {
       once: true,
       easing: "ease-in-out",
     });
+
+    AOS.refresh();
   }, []);
 
   return <>{children}</>;
