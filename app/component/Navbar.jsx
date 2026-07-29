@@ -10,6 +10,13 @@ function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-4">
       
       {menuOpen && (
+        <div
+         className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
+         menuOpen
+      ? "max-h-96 opacity-100"
+      : "max-h-0 opacity-0"
+  }`}
+>
   <div className="md:hidden bg-amber-950 px-4 pb-4">
 
     <div className="flex flex-col space-y-4 text-white font-medium">
@@ -43,7 +50,7 @@ function Navbar() {
       </Link>
 
     </div>
-
+   </div>
   </div>
 )}
         {/* Logo */}
@@ -59,7 +66,13 @@ function Navbar() {
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-white text-3xl"
       >
-          {menuOpen ? "✕" : "☰"}
+          <span
+           className={`inline-block transition-transform duration-300 ${
+            menuOpen ? "rotate-90" : "rotate-0"
+            }`}
+            >
+           {menuOpen ? "✕" : "☰"}
+          </span>
         </button>
 
         <div className="hidden md:flex items-center gap-8 text-white font-medium">
