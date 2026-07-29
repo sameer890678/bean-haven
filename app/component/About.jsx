@@ -54,10 +54,6 @@ export default function About() {
 
           </div>
 
-          <button className="mt-10 px-8 py-3 bg-amber-700 text-white rounded-xl hover:bg-amber-800 transition duration-300 cursor-pointer">
-            Learn More
-          </button>
-
         </div>
 
       </div>
