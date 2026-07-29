@@ -1,6 +1,6 @@
 export default function Gallery() {
   return (
-    <section id="gallery" className="bg-amber-100 py-24 px-20">
+    <section id="gallery" className="bg-amber-100 py-16 lg:py-24 px-6 md:px-12 lg:px-20">
 
       {/* Heading */}
       <div className="text-center mb-14">
@@ -9,7 +9,7 @@ export default function Gallery() {
           Gallery
         </p>
 
-        <h2 className="text-5xl font-bold text-amber-950 mt-2">
+        <h2 className="text-4xl md:text-5xl font-bold text-amber-950 mt-2">
           A Taste of Bean Haven
         </h2>
 
@@ -23,42 +23,42 @@ export default function Gallery() {
 
       {/* Gallery Grid */}
 
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <img
           src="/images/Gallery/gallery1.jpg"
           alt="Coffee"
-          className="w-full h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <img
           src="/images/Gallery/gallery2.jpg"
           alt="Coffee"
-          className="w-full h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <img
           src="/images/Gallery/gallery3.jpg"
           alt="Coffee"
-          className="w-full h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <img
           src="/images/Gallery/gallery4.jpg"
           alt="Coffee"
-          className="w-full h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <img
           src="/images/Gallery/gallery5.jpg"
           alt="Coffee"
-          className="w-full h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
         <img
           src="/images/Gallery/gallery6.jpg"
           alt="Coffee"
-          className="w-full h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+          className="w-full h-64 md:h-80 object-cover rounded-3xl shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
         />
 
       </div>
